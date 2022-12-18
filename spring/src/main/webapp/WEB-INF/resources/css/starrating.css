@@ -1,0 +1,54 @@
+ 
+.fa{
+    font-size: 40px;
+     
+}
+.main{
+    display: flex;
+    padding-top: 20%;
+    width: 100%;
+   
+    
+}
+.star{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 4px;;
+}
+.checked{
+     color: orange;
+     padding: 5px;
+      
+}
+
+.side{
+    float: left;
+    width: 30%;
+    margin-top: 10px;
+    text-align:right;
+}
+.middle{
+    margin-top: 10px;
+    float: left;
+    width: 30%;
+}
+.right{
+    text-align:center;
+}
+.row:after{ 
+    padding:0px; 
+    content: "";
+    display: table;
+    clear: both;
+}
+.bar-container{
+    width:100%;
+    background-color: #f1f1f1;
+    text-align:center;
+    color:white;
+}
+.bar-5{width: 60%;height:18px;background-color: orange;}
+.bar-4{width: 30%;height:18px;background-color: orange;}
+.bar-3{width: 10%;height:18px;background-color:  orange;}
+.bar-2{width: 4%;height:18px;background-color: orange;}
+.bar-1{width: 15%;height:18px;background-color: orange;}

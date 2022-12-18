@@ -1,0 +1,173 @@
+.header{
+    width: 100%;
+    height: 25vh;
+    border-bottom: 5px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index:100;
+    background-image: url("../images/top2.jpeg");
+    
+    
+  
+  }
+  
+  
+  .header1{
+    width: 100%;
+    height: 25vh;
+    background-color: rgba(0, 0, 0, 0.493);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  
+  
+  .heading{
+    font-family: 'Trebuchet MS';
+    font-size: medium;
+    padding-top: 2%;
+    font-size: 500%;
+    font-weight: 600;
+    padding-left: 3%;
+    width: 70%;
+    color: white;
+
+   
+  }
+
+  .edit{
+    width:30% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+
+  }
+  a{
+  text-decoration:none;
+  color:#fff;
+  }
+
+  .button-42 {
+    margin-right: 2%;
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #c9b925, #c9b925d8);
+    border-radius: 6px;
+    box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Trebuchet MS';
+    height: 60px;
+    line-height: 40px;
+    padding-bottom: 5%;
+    outline: 0;
+    overflow: hidden;
+    margin:1%;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 100%;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow .2s;
+    width: 70%;
+  }
+  
+  .button-42:hover {
+    box-shadow: #c9b925 0 3px 8px;
+  }
+
+
+.bottom{
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom-left{
+    width: 50%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  
+}
+
+.bottom-right{
+    width: 50%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body {
+    background-image: url("headermap.jpg");
+  }
+.small-img-row{
+  display: flex;
+  justify-content:space-between;
+  padding-top:10px;
+}
+.small-img-col{
+  flex-basis: 24%;
+  cursor: pointer;
+}
+.big-image{
+  
+   /* width: auto !important; /*override the width below*/
+    width: 100%;
+   
+   
+   
+    float: left;
+    clear: both;
+    transition:0.5s;
+  }
+  .image{
+    width: 100%;
+    height: auto;
+    overflow-y: scroll;
+
+  }
+  .big-image:hover{
+    transform:scale(1.1);
+    z-index:1;
+  }
+  .details{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .details-left{
+    width: 50%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+  }
+
+  .details-text{
+    font-family: 'Trebuchet MS';
+    font-size: large;
+    font-weight: bold;
+    color: rgb(75, 74, 74);
+  }
+  
+ 
+ 
+ 
